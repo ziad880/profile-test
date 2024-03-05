@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #010101;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    padding-left: 70px;
+    border-radius: 3px;
+}
+.logo{
+    text-decoration: none;
+    font-family: 'Lilita One', sans-serif;
+    color: #d20404e4;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3em;
+    transition: .9s ease;
+    letter-spacing: 4px;
+}
+.logo:hover{
+    text-shadow: #f82626cf 1.2px 1px ;
+    transform: scale(1.045);
+    font-style: italic 1px 50px;
+    text-wrap: 10px;
+}
+.gat a{
+    color: #ffffff9c;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 20px;
+    transition: 1s ease;
+}
+.gat a:hover{
+    color: #f82626cf;
+}
+section1{
+    padding: 100px 100px;
+    background:url(imags/wallpaperflare.com_wallpaper.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+}
+.main h2{
+    color: rgba(255, 255, 255, 0.858);
+    font-size: 1.4em;
+    font-weight: 700;
+}
+.main h2 span{
+    display: inline-block;
+    margin: 3px;
+    margin-top: -5px;
+    color: rgba(237, 1, 1, 0.66);
+    font-size: 2em;
+    font-weight: 800;
+}
+.main h3{
+    color: rgba(255, 255, 255, 0.744);
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: -5px;
+    margin-left:2px ;
+    margin-bottom: 10px;
+}
+.main-btn{
+    color: #ffffffcd;
+    text-decoration: none;
+    margin-bottom: 18px;
+    margin-top: 10px;
+    margin-left: 22px;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: #ff000057 .5px .5px .5px .5px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    display: inline-block;
+    padding: 0.7em;
+    transition: 0.8s ease;
+}
+.main-btn:hover{
+    transform:scale(1.045) ;
+    background-color: #f82626cf;
+    color: black;
+}
+.socials a{
+    font-size: 1.7em;
+    padding: 8px;
+    margin-left: 5px;
+    transition: 0.5s ease;
+
+}
+.socials a:hover{
+    font-size: 1.5em;
+}
+
+.title{
+    display: flex;
+    padding-top:20px ;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.card{
+    background-color: white;
+    text-transform: capitalize;
+    width: 21.25em;
+    box-shadow: hwb(0 0% 100% / 0.4) 0 5px 25px ;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    font-size: 8em;
+    text-align: center;
+    color: #000000d0;
+}
+.info{
+    font-size: .8em;
+    text-align: center;
+    font-weight: 500;
+}
+.info h3{
+    font-size: 1.4em;
+    margin-top: -6px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.photo-me {
+    text-align: center;
+    margin-top: 50px;
+    padding-top:30px ;
+    color: white;
+    background-color: #010101;
+}
+.photo-me h2{
+    font-size: 1.8em;
+    font-weight:900;
+}
+.photo-me .content{
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.photo-card{
+    min-height: 14em;
+    box-shadow: hwb(0 99% 1% / 0.646) 0 5px 25px ;
+    width: 23em;
+    margin: 40px;
+    transition  :0.7s ease ;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 20px
+}
+.photo-card:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+.image img{
+    width: 100%;
+}
+.contact .icon{
+    font-size: 4.5em;
+    
+}
+.contact .card{
+    margin: 30px;
+    
+}
+.contact .info h3{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+.contact .info p{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+footer{
+    background-color: #000000;
+    margin-top: 50px;
+    color: white;
+    padding-top: 11px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+footer span{
+    color: rgb(207, 2, 2);
+}
+footer .socials{
+    font-size: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@media(max-width:1023px){
+header{
+    padding: 12px 20px;
+}
+.nav a{
+    padding-left: 10px;
+}
+.title{
+    font-size: 1.8em;
+}
+.section{
+    padding: 80px 20px;
+}
+.main-content h2{
+    font-size: 1em;
+}
+.main-content h3{
+    font-size: 1.6em;
+}
+.content{
+    flex-direction: column;
+    align-items: center;
+}
+}
